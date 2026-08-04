@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "id": "com.azincc.skland",
+  "version": "1.0.0",
+  "name": "森空岛签到",
+  "description": "森空岛自动签到插件，支持明日方舟与终末地，支持定时签到与私聊通知",
+  "author": {
+    "name": "Azincc",
+    "url": "https://github.com/Azincc"
+  },
+  "license": "MIT",
+  "urls": {
+    "repository": "https://github.com/Azincc/astrbot_plugin_skland",
+    "homepage": "https://github.com/Azincc/astrbot_plugin_skland",
+    "documentation": "https://github.com/Azincc/astrbot_plugin_skland",
+    "issues": "https://github.com/Azincc/astrbot_plugin_skland/issues"
+  },
+  "host_application": {
+    "min_version": "0.1.0",
+    "max_version": "99.99.99"
+  },
+  "sdk": {
+    "min_version": "2.0.0",
+    "max_version": "2.99.99"
+  },
+  "dependencies": [
+    {
+      "type": "python_package",
+      "name": "httpx",
+      "version_spec": ">=0.25.0"
+    },
+    {
+      "type": "python_package",
+      "name": "pycryptodome",
+      "version_spec": ">=3.19.0"
+    }
+  ],
+  "plugin_type": "tool",
+  "display": {
+    "icon": {
+      "type": "lucide",
+      "value": "calendar-check"
+    }
+  },
+  "capabilities": [
+    "send.text",
+    "chat.open_session"
+  ],
+  "i18n": {
+    "default_locale": "zh-CN"
+  }
+}

@@ -1,0 +1,12 @@
+[plugin]
+config_version = "1.0.0"
+enabled = true
+
+[sign]
+auto_sign_enabled = true
+auto_sign_hour = 9
+auto_sign_minute = 0
+auto_sign_delay = 10
+max_users = 10
+show_player_name = true
+notify_on_auto_sign = true
