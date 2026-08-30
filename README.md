@@ -3,7 +3,6 @@
 
 用户绑定森空岛 token 后，可通过指令或**自然语言（LLM 工具）**完成手动签到、查看签到状态、开启每日自动签到。
 
-本插件已验证兼容 NapCat 适配器（maibot-team.napcat-adapter）与 SnowLuma 适配器（MaiBot-SnowLuma-Adapter）两种 QQ 适配器。
 
 指令：
 
