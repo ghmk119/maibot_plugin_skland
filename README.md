@@ -6,8 +6,14 @@
 本插件已验证兼容 NapCat 适配器（maibot-team.napcat-adapter）与 SnowLuma 适配器（MaiBot-SnowLuma-Adapter）两种 QQ 适配器。
 
 指令：
+
+
 /skd (群聊): 查看群内所有绑定用户的签到状态
+
 /skd (私聊): 查看自己的签到状态
+
 /skdlogin (私聊): 使用 token 登录并立即签到
+
 /skdlogout (私聊): 登出并移除 token
+
 /skdusers (全部): 查询用户统计，普通用户仅显示签到人数和名额
